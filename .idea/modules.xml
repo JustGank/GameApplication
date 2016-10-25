@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GameApplication.iml" filepath="$PROJECT_DIR$/GameApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/explosionfield/explosionfield.iml" filepath="$PROJECT_DIR$/explosionfield/explosionfield.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scrath/scrath.iml" filepath="$PROJECT_DIR$/scrath/scrath.iml" />
+    </modules>
+  </component>
+</project>

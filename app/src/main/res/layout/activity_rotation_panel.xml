@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/table"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="开心转转转"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:text="|"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <game.xjl.draw_card.RotationPanelView
+        android:layout_marginTop="5dp"
+        android:id="@+id/rotation_panel_view"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/the_result"
+        android:textColor="#FF0000"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="恭喜您中奖啦"
+        />
+
+
+
+
+</LinearLayout>

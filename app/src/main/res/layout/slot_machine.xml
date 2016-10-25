@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/table"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="财神水果机"
+        android:textColor="#ff0000"
+        android:textSize="30sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10px"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        
+            <game.xjl.slot_machine.MyColorImageView
+                android:id="@+id/bar1"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="5px"
+                android:src="@mipmap/bar" />
+
+
+            <game.xjl.slot_machine.MyColorImageView
+                android:id="@+id/cherry1"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="5px"
+                android:src="@mipmap/cherry" />
+
+
+            <game.xjl.slot_machine.MyColorImageView
+                android:id="@+id/orange1"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="5px"
+                android:src="@mipmap/orange" />
+        
+
+            <game.xjl.slot_machine.MyColorImageView
+                android:id="@+id/seven1"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="5px"
+                android:src="@mipmap/seven" />
+        
+            <game.xjl.slot_machine.MyColorImageView
+
+                android:id="@+id/ring1"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="5px"
+                android:src="@mipmap/ring" />
+        
+
+            <game.xjl.slot_machine.MyColorImageView
+                android:id="@+id/watermelon1"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="5px"
+                android:src="@mipmap/watermelon" />
+        
+            <game.xjl.slot_machine.MyColorImageView
+                android:id="@+id/bar2"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="5px"
+                android:src="@mipmap/bar" />
+        
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            
+                <game.xjl.slot_machine.MyColorImageView
+                    android:id="@+id/watermelon4"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:padding="5px"
+                    android:src="@mipmap/watermelon" />
+
+                <game.xjl.slot_machine.MyColorImageView
+                    android:id="@+id/ring4"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:padding="5px"
+                    android:src="@mipmap/ring" />
+            
+                <game.xjl.slot_machine.MyColorImageView
+                    android:id="@+id/seven4"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:padding="5px"
+                    android:src="@mipmap/seven" />
+            
+                <game.xjl.slot_machine.MyColorImageView
+                    android:id="@+id/orange4"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:padding="5px"
+                    android:src="@mipmap/orange" />
+            
+                <game.xjl.slot_machine.MyColorImageView
+                    android:id="@+id/cherry4"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:padding="5px"
+                    android:src="@mipmap/cherry" />
+            
+        </LinearLayout>
+
+        <game.xjl.slot_machine.MyColorImageView
+            android:layout_width="275dp"
+            android:layout_height="275dp"
+            android:background="@mipmap/moneygod" />
+
+        <LinearLayout
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            
+                <game.xjl.slot_machine.MyColorImageView
+                    android:id="@+id/cherry2"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:padding="5px"
+                    android:src="@mipmap/cherry" />
+
+                <game.xjl.slot_machine.MyColorImageView
+                    android:id="@+id/orange2"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:padding="5px"
+                    android:src="@mipmap/orange" />
+          
+
+                <game.xjl.slot_machine.MyColorImageView
+                    android:id="@+id/seven2"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:padding="5px"
+                    android:src="@mipmap/seven" />
+
+                <game.xjl.slot_machine.MyColorImageView
+                    android:id="@+id/ring2"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:padding="5px"
+                    android:src="@mipmap/ring" />
+
+         
+                <game.xjl.slot_machine.MyColorImageView
+                    android:id="@+id/watermelon2"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:padding="5px"
+                    android:src="@mipmap/watermelon" />
+
+         
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        
+            <game.xjl.slot_machine.MyColorImageView
+                android:id="@+id/bar4"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="5px"
+                android:src="@mipmap/bar" />
+
+            <game.xjl.slot_machine.MyColorImageView
+                android:id="@+id/watermelon3"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="5px"
+                android:src="@mipmap/watermelon" />
+
+
+            <game.xjl.slot_machine.MyColorImageView
+                android:id="@+id/ring3"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="5px"
+                android:src="@mipmap/ring" />
+
+
+            <game.xjl.slot_machine.MyColorImageView
+
+                android:id="@+id/seven3"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="5px"
+                android:src="@mipmap/seven" />
+
+
+            <game.xjl.slot_machine.MyColorImageView
+                android:id="@+id/orange3"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="5px"
+                android:src="@mipmap/orange" />
+
+            <game.xjl.slot_machine.MyColorImageView
+
+                android:id="@+id/cherry3"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="5px"
+                android:src="@mipmap/cherry" />
+
+            <game.xjl.slot_machine.MyColorImageView
+
+                android:id="@+id/bar3"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="5px"
+                android:src="@mipmap/bar" />
+
+    
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@mipmap/submit" />
+
+
+</LinearLayout>

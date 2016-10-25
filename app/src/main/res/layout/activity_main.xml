@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@mipmap/table"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/golden_egg"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="60px"
+        android:text="砸金蛋" />
+
+
+    <Button
+        android:id="@+id/slot_machine"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="60px"
+        android:layout_marginTop="5dp"
+        android:text="老虎机" />
+
+    <Button
+        android:id="@+id/lottery"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="60px"
+        android:layout_marginTop="5dp"
+        android:text="刮刮乐" />
+
+
+    <Button
+        android:id="@+id/turntable"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="60px"
+        android:text="大转盘" />
+
+    <Button
+        android:id="@+id/shark"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="60px"
+        android:layout_marginTop="5dp"
+        android:text="摇一摇" />
+
+    <Button
+        android:id="@+id/three_seven"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="60px"
+        android:layout_marginTop="5dp"
+        android:text="7 7 7" />
+
+    <Button
+        android:id="@+id/draw_game"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="60px"
+        android:layout_marginTop="5dp"
+        android:text="抽奖翻牌" />
+
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/table"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="翻牌抽奖"
+        android:textColor="#ff0000"
+        android:textSize="30dp" />
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:columnCount="3">
+
+        <TextView
+            android:id="@+id/card1"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/draw_card"
+            android:gravity="center"
+            android:text=" "
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/card2"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/draw_card"
+            android:gravity="center"
+            android:text=" "
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/card3"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/draw_card"
+            android:gravity="center"
+            android:text=" "
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/card4"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/draw_card"
+            android:gravity="center"
+            android:text=" "
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/card5"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/dianwochoujiang"
+            android:gravity="center"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/card6"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/draw_card"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:text=" "
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/card7"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/draw_card"
+            android:gravity="center"
+            android:text=" "
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/card8"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/draw_card"
+            android:gravity="center"
+            android:text=" "
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/card9"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/draw_card"
+            android:gravity="center"
+            android:text=" "
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+        
+    </GridLayout>
+    
+
+    
+</LinearLayout>

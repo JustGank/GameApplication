@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/table"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#ffffff">
+
+        <game.xjl.third_seven.PickerView
+            android:id="@+id/minute_pv"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/minute_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/minute_pv"
+            android:text="分"
+            android:textColor="#ffaa33"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <game.xjl.third_seven.PickerView
+            android:id="@+id/second_pv"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_toRightOf="@id/minute_tv" />
+
+        <TextView
+            android:id="@+id/second_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/second_pv"
+            android:text="秒"
+            android:textColor="#ffaa33"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingTop="40dp">
+
+        <View
+            android:id="@+id/thickLine1"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/wheel_frame" />
+
+        <LinearLayout
+            android:id="@+id/slotReels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thickLine1"
+            android:orientation="horizontal">
+
+            <game.xjl.third_seven.WheelView
+                android:id="@+id/wheel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <game.xjl.third_seven.WheelView
+                android:id="@+id/wheel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <game.xjl.third_seven.WheelView
+                android:id="@+id/wheel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/thickLine2"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@+id/slotReels"
+            android:background="@drawable/wheel_frame"/>
+        <RelativeLayout
+            android:id="@+id/slotSpinLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignLeft="@id/thickLine2"
+            android:layout_alignRight="@id/thickLine2"
+            android:layout_below="@id/thickLine2"
+            android:background="@drawable/wheel_frame">
+
+            <TextView
+                android:id="@+id/welcomeTxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:padding="10dp"
+                android:text="@string/welcome_text"/>
+
+            <TextView
+                android:id="@+id/resultTxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/welcomeTxt"
+                android:text="@string/result_text"/>
+
+            <Button
+                android:id="@+id/spin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/spin"
+                android:textColor="#ffffff"
+                android:layout_below="@id/welcomeTxt"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/spin_button_bg"/>
+
+            <TextView
+                android:id="@+id/authorTxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/spin"
+                android:textSize="12sp"
+                android:text="@string/author_text"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

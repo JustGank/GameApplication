@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/table"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="开心刮刮乐"
+        android:textColor="#ff0000"
+        android:textSize="30dp" />
+
+
+    <game.xjl.rubber_textview.ScratchTextView
+        android:id="@+id/my_rubber_view"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textColor="#ff0000"
+        android:textSize="30sp" />
+
+</LinearLayout>
